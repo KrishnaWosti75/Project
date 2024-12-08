@@ -1,0 +1,122 @@
+/* Services Section */
+.services {
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.8rem;
+    color: #2c3e50;
+    margin-bottom: 3rem;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.5px;
+}
+
+/* Company Promise */
+.company-promise {
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+}
+
+/* Services Grid */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2.5rem;
+}
+
+.service-card {
+    background: #ffffff;
+    padding: 2rem 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.service-card h3 {
+    font-size: 1.8rem;
+    color: #34495e;
+    margin-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+/* Khalti Payment Button */
+.khalti-button {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.khalti-button:hover {
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Learn More Button */
+.learn-more-button {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    background: #27ae60;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.learn-more-button:hover {
+    background: #2ecc71;
+    transform: scale(1.05);
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+    .services {
+        padding: 3rem 1.5rem;
+    }
+
+    .service-card {
+        padding: 1.5rem;
+    }
+
+    .khalti-button,
+    .learn-more-button {
+        font-size: 0.9rem;
+        padding: 0.7rem 1.8rem;
+    }
+}

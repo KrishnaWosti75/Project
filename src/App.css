@@ -1,0 +1,7 @@
+.khalti-widget-frame {
+  z-index: 10000 !important;
+  /* Ensure the widget is on top */
+  position: fixed !important;
+  top: 0;
+  left: 0;
+}
