@@ -6,7 +6,7 @@ import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";  // Import Footer
-// import "./App.css"; // Link to your global styles
+import "./App.css"; // Link to your global styles
 import WebDevelopment from "./subpages/web-development";
 import ForexTrading from "./subpages/forex-trading";
 import PersonalizedWebDevelopment from "./subpages/personalized-web-development";
